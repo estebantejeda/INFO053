@@ -1,0 +1,37 @@
+PC4: quad-tree
+            nodo
+      /    |   |    \
+     /     |   |     \
+     h1    h2  h3    h4
+
+Implementara un quad-tree para manejar puntos ubicados aleatoriamente en un plano de WIDTH x HEIGHT posiciones.
+
+1) (2pts) Implemente la funcion punto_en_cuadrante(...), para saber si un punto se encuentra en un cuadrante o no (1 o 0).
+
+2) (2pts) Implementar la funcion insertar, donde se inserta se recibe punto y se ubica en el arreglo de puntos del cuadrante mas pequeno que 
+le corresponde. Si al insertar, ese cuadrante supera MAXPUNTOS, entonces este debe fragmentarse en 4-subquadrantes hijos y
+sus puntos que contenia deben distribuirse a los sub-cuadrantes que corresponden. Cuando un cuadrante sea de 8x8 o menos entonces
+la subdivision se deja de hacer, y los puntos que superen MAXPUNTOS se ignoran. Si la posicion ya estaba tomada por otro punto, entonces no se inserta.
+
+3) (2pts) Implementar la funcion imprimir, que imprime en el terminal, el espacio de WIDTH x HEIGHT celdas, con los 
+puntos ubicados en el plano como "o" y los cortes que hizo el quad-tree como lineas usando "-" y "|".
+
+ejemplo imprimir():
+
+-------------------------------
+|             | oo|  o| o   o |
+|       o     |ooo|o  |   o   |
+|             |-------|-------|
+|     o       |   |   |   o   |
+|             |   |   |    o  |
+|-------------|---------------|
+|             |   o           |
+|             |       o       |
+|        o    |  o            |
+|             |       o       |
+|             |               |
+-------------------------------
+
+
+
+

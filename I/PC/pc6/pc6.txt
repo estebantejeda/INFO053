@@ -1,0 +1,11 @@
+Prueba Chica 5:
+Hashing universal de strings
+
+Usted cuenta con un hashing universal de enteros.
+En esta prueba usted debe implementar hashing con memoria estatica, trabajando en el archivo hash.h. 
+El programa del main() automaticamente va a insertar y eliminar elementos, 
+por lo tanto usted podra comprobar si su programa esta funcionando inmediatamente.
+
+1) (3pts) Implemente la funcion insertar. Si el array seleccionado ya esta lleno, entonces se comienza llenando del inicio del sobre-escribiendo.
+
+2) (3pts) Implemente la funcion eliminar. La proxima vez, el hash debe insertar en esta posicion libre.

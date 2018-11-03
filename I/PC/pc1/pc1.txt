@@ -1,0 +1,28 @@
+Prueba Chica 1:
+NOTA: Debe entregar sus resultados en un archivo comprimido que tenga la carpeta a su nombre, los fuentes y el Makefile.
+
+Ejercicios:
+1) Escriba un programa que use una funcion "suma" que 
+calcula la suma de enteros desde 1 hasta N. 
+Con N pasado como argumento de ejecucion y |N| < 1000.
+
+Ejemplos:
+./prog 3
+6
+./prog -4
+-9
+
+
+
+
+2) Carlitos y Sergio juegan a dispararle a unos tarros 
+puestos a lo largo sobre un meson (como una linea). 
+Ambos comienzan a disparar al mismo tiempo sobre el 
+mismo set de tarros, pero Carlitos comienza por la 
+izquierda y Sergio por la derecha.  En cierto momento 
+ambos se encuentran y le disparan al mismo tarro 
+de forma simultanea. Escriba una funcion 
+"void tarro( int c, int s )" (y usela) que imprime cuantos tarros 
+le faltaron a cada uno solo usando la informacion de la cantidad 
+de tarros disparada por Carlitos (c) y Sergio (s), 
+los cuales son pasados como argumentos de ejecucion. 

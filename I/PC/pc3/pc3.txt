@@ -1,0 +1,16 @@
+Prueba chica 3:
+
+
+Usted tiene un proprama donde se simula la llegada en oleadas de N personas a una cola para ser atendidos por una cajera.
+Nota: Trabajara solo sobre cola.h y caja.h. Pero le conviene mucho entender lo que hace main.c y asi verificar que su solucion es correcta.
+
+1) La caja le da preferencia a las personas de tercera edad (60 o mas). Por lo tanto, extienda la funcion cola_insertar(...) 
+para que cuando llegue una persona de la tercera edad (60 o mas), esta sea ubicada al inicio. Escriba un mensaje en el terminal cuando esto suceda.
+
+2) Panchito y Chuck, de edades 46 y 49 respectivamente, son conocidos por 'colarse'. Extienda la funcion cola_insertar para que esto suceda cuando aparece alguno de ellos.
+Escriba un mensaje en el terminal para reportar que sucedio este evento.
+
+3) Yannet acostumbra guardarle un puesto a Verito. Extienda el programa para que esto suceda e imprimia un mensaje avisando que el evento sucedio.
+
+4) Finalmente, implemente la funcion cajera_trabajo(..) de la cajera, la cual atiende personas (elimina de la cola) hasta que la suma de las edades de las personas atendidas supera 100
+anios. Debe retornar la cantidad de personas atendidas. 

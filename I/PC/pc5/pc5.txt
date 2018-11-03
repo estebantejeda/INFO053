@@ -1,0 +1,17 @@
+AVL (arbol binario de busqueda balanceado)
+
+regla:
+         nodo
+        /   \
+    menor   mayor
+
+
+1) Implementar la funcion eliminar. 
+(Pista: Ya existe la funcion buscar que retorna el nodo y su padre.)
+
+2) Implementar la funcion balancear.
+(esta debe ser llamada cada vez que se produce una insercion o borrado)
+
+
+
+

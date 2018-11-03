@@ -1,0 +1,9 @@
+Prueba 2:
+
+En esta prueba usted implementara funciones sobre la estructura "figura" generica que puede ser un circulo, 
+rectangulo o triangulo. Trabajara sobre figura.h pero debe entender lo que hacen los codigos de main.c y 
+punto.h; este ultimo tiene funciones que le pueden servir para usarlas en figura.h.
+
+1) (3pt) Implemente la funcion "float area(figura fig)", que retorna el area de la figura "fig" pasada como argumento. 
+
+2) (3pt) Implemente la funcion "int colision(figura f1, figura f2)" que retorna '1' si f1 y f2 se intersectan o bien '0' de lo contrario.
